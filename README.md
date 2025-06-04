@@ -55,7 +55,7 @@ You can edit training and model parameters in:
 
     python visualize.py
 
-# Repository Structure
+## Repository Structure
 
     ├── audio/                
     │   ├── clean/
