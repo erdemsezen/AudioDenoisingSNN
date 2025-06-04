@@ -4,8 +4,8 @@ from data.dataset import SpikeSpeechEnhancementDataset
 
 def get_dataloaders(cfg):
     dataset = SpikeSpeechEnhancementDataset(
-        noisy_dir=f"{cfg.data_root}/noisy_16000",
-        clean_dir=f"{cfg.data_root}/clean_16000",
+        noisy_dir=f"{cfg.data_root}/noisy",
+        clean_dir=f"{cfg.data_root}/clean",
         sample_rate=cfg.sample_rate,
         n_fft=cfg.n_fft,
         hop_length=cfg.hop_length,
